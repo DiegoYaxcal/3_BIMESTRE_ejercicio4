@@ -1,0 +1,29 @@
+/*
+Vectores o Arrays 
+	
+	Tipo	Nombre		[cantidad]
+	int		Vector		[5] = {1,3,4,8,9}
+
+*/
+
+
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main(){
+
+int vector[5]={1,3,4,8,9};
+int resultado;
+
+for(int i=0;i<5;i++){
+
+	cout<<i<<"-->"<<vector[i]<<endl;
+	
+}
+
+
+getch();
+return 0;
+
+}
